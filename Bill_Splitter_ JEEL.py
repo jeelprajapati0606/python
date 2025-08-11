@@ -1,6 +1,6 @@
 print("welcome to the Bill splitter App!")
 print()
----------------
+
 # que 1
 
 Bill = float(input("Enter total Bill Amount:"))
@@ -8,7 +8,7 @@ People =  int(input("Enter Number of people:"))
 Tip_percentage =  int(input("Enter tip percentage(0/5/10/15/20:"))
 print()
 
-----------------------------
+
 # que 2
 
 if People <=0:
@@ -21,7 +21,7 @@ if Bill <=0 or Tip_percentage <=0:
         print("Error! in Bill")
 print()
 
-----------------------------------------------------
+
 # que 3
 
 Tip_Amount = (Tip_percentage/100)*Bill
@@ -34,7 +34,7 @@ print("Per_Person:",Per_Person)
 
 print()
 
------------------------------------------------------------------
+
 # que 4
 
 X =str(input("would You like to calculate another bill?(yes/no):"))
@@ -68,7 +68,7 @@ while X!="no":
     if X=="no":
         break
 
---------------------------------------------------------------------------------------------
+
 
 
 
@@ -77,5 +77,6 @@ while X!="no":
 
     
     
+
 
 
